@@ -1,0 +1,5 @@
+# Create or edit .gitignore file
+echo "# Temporary office files" >> .gitignore
+echo "~$*" >> .gitignore
+echo "*.tmp" >> .gitignore
+echo ".~lock.*" >> .gitignore
